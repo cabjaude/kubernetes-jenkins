@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: jenkins
-        image: jenkins/jenkins:latest
+        image: cabjaude12/jenkins:v3.0
         ports:
           - name: http-port
             containerPort: 8080
